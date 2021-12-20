@@ -1,0 +1,148 @@
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #000;
+}
+#login {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+#box {
+  width: 50%;
+  height: 610px;
+}
+#fondo {
+  width: 100%;
+  height: 610px;
+  background-image: url(../imagenes/nuevoFondo.jpg);
+  background-size: cover;
+}
+#formulario {
+  display: block;
+  width: 70%;
+  height: 350px;
+  font-size: 15px;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110px;
+}
+#titulo {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+}
+.etiqueta {
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+}
+.celdas {
+  width: 100%;
+  height: 30px;
+  background-color: #f2f2f2;
+  border: 2px;
+}
+#check {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+#check p {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+#enlace a {
+  font-size: 12px;
+  color: #32d4a4;
+  text-decoration: none;
+  margin-top: 2px;
+  margin-left: 60px;
+}
+#sesion {
+  width: 100%;
+  height: 35px;
+  background-color: #32d4a4;
+
+  border: 1px;
+  border-radius: 7px;
+  margin-top: 25px;
+}
+#sesion a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+#copyright {
+  width: 80%;
+  height: 60px;
+  color: #585858;
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 10px;
+}
+@media all and (min-width: 600px) and (max-width: 1060px) {
+  body {
+    height: auto;
+  }
+  #login {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  #box {
+    width: 100%;
+    height: auto;
+  }
+  #fondo {
+    width: 100%;
+    height: auto;
+    background-image: url(../imagenes/fondoTablet.jpg);
+    background-size: cover;
+  }
+  #enlace {
+    margin-top: 3px;
+  }
+  #enlace a {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+}
+@media all and (max-width: 599px) {
+  #login {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #box {
+    width: 100%;
+    height: auto;
+  }
+  #fondo {
+    width: 100%;
+    height: 610px;
+    background-image: url(../imagenes/vistaMobil.jpg);
+  }
+  #formulario {
+    display: block;
+    width: 80%;
+  }
+  #enlace {
+    margin-top: 3px;
+  }
+  #enlace a {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  #copyright {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 10px;
+  }
+}
